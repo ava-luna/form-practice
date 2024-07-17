@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms Practice</title>
+    </head>
+    <body style="background-color: pink;">
+        <h1>Greetings App Academy Student!</h1>
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+
+                <div>
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div>
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email_address">
+                </div>
+
+                <div>
+                    <label for="role">Role</label>
+                    <select id="role" name="user_role_name">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p> Choose your favorite programming language: </p>
+                </div>
+
+            <tr>
+
+                <td>
+                    <label for="html">HTML</label>
+                    <input type="radio" id="html" value="html">
+                </td>
+
+                <td>
+                    <label for="css">CSS</label>
+                    <input type="radio" id="css" value="css">
+                </td>
+
+                <td>
+                    <label for="java-script">Java Script</label>
+                    <input type="radio" id="java-script" value="java_script">
+                </td>
+
+            </tr>
+
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+                <div>
+                    <label for="current-date">Current Date</label>
+                    <input type="date" id="current-date" name="current_date">
+                </div>
+
+                <div>
+                    <label for="newsletter">Sign up for newsletter </label>
+                    <input type="checkbox" id="newsletter" value="sign_up_for_newsletter">
+                </div>
+
+                <div>
+                    <label for="agree-to-terms">Agree to trems and conditions </label>
+                    <input type="checkbox" id="agree-to-terms" value="agree-to-terms">
+                </div>
+
+                
+                <div>
+                    <button style="color: rgb(99, 66, 182); background-color: #4CAF50;" type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
